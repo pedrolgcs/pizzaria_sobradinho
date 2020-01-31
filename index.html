@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sobradinho</title>
+    <link rel="icon" href="static/img/icon.png" />
+    <meta name="description" content="Site criado com o intúito da divulgação do nosso cardápio e serviços que oferecemos tanto a domicílio como no próprio estabelecimento">
+    <meta name="keywords" content="Pizza, Acari, Sobradinho, Adriano, Carne, Rejane, sanduiche, File, Aniverário, Eventos, Pizzaria Sobradinho">
+    <meta name="author" content="Pedro H. L. Galvão">
+    <meta name="rating" content="general">
+    <meta name="distribution" content="local">
+    <meta name="robot" content="Index,Follow">
+
+    <!-- Bootstrap !-->
+    <link rel="stylesheet" href="static/plugins/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- font-awesome !-->
+    <link rel="stylesheet" href="static/plugins/font-awesome/css/font-awesome.min.css">
+
+    <!-- slick-carousel !-->
+    <link rel="stylesheet" href="static/plugins/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="static/plugins/slick-carousel/slick/slick.css">
+
+    <!-- css index !-->
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+
+<body>
+    <!-- cabecalho !-->
+    <header>
+        <!-- menu superior !-->
+        <nav class="navbar navbar-default menu-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+                    <a class="navbar-brand font-bolt logo" href="index.html">Sobradinho</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse font-regular" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html"><i class="fa fa-home fa-lg" aria-hidden="true"></i></a></li>
+                        <li><a href="agenda.html"><i class="fa fa-bookmark-o fa-lg" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://www.facebook.com/rejaneisabel.lopesgalvao" target="_blank"><i class="fa fa-facebook-square fa-lg facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram fa-lg instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <main>
+        <!-- slide de promoções !-->
+        <section class="slide">
+            <div class="container">
+                <div class="autoplay">
+                    <div class="slide">
+                        <h1>Terça do desconto</h1>
+                        <h2>Pizza <b class="b-green">G</b> por apenas <b class="b-green">R$ 24,00</b></h2>
+                        <hr>
+                        <p> <i> Apenas nas Terças-feiras</p> </i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- detalhe de telefone e entrega !-->
+        <section class="detalhe-entrega">
+            <div class="container">
+                <h2>Trabalhamos com Atendimento & Delivery na cidade do Acari-RN</h2>
+                <h3>Ligue agora mesmo para
+               <a href="tel:999886733" class="numero">
+                  <span class="label label-primary">99988-6733</span>
+               </a> ou
+               <a href="tel:996800008" class="numero">
+                  <span class="label label-primary">99680-0008</span>
+               </a></h3>
+                <hr>
+                <h4>Cobramos uma taxa de R$3,00 na entrega a domicílio</h4>
+            </div>
+        </section>
+        <!-- cardapio dos produtos !-->
+        <section class="cardapio">
+            <div class="container">
+                <h2 class="font-bolt">CARDÁPIO</h2>
+                <hr>
+                <ul class="nav nav-tabs titulo-cardapio">
+                    <li class="active"><a data-toggle="tab" href="#pizzas">Pizzas</a></li>
+                    <li><a data-toggle="tab" href="#carnes">Carnes</a></li>
+                    <li><a data-toggle="tab" href="#sanduiches">Sanduiches</a></li>
+                    <li><a data-toggle="tab" href="#petiscos">Petiscos</a></li>
+                    <li><a data-toggle="tab" href="#sucos">Sucos</a></li>
+                </ul>
+                <div class="tab-content">
+                    <!-- cardapio pizza !-->
+                    <div id="pizzas" class="tab-pane fade in active">
+                        <!-- preco padrão para pizzas !-->
+                        <div class="preco-pizzas col-md-12 center">
+                            <hr>
+                            <span class="label label-info">(P) R$20,00</span>
+                            <span class="label label-info">(M) R$24,00</span>
+                            <span class="label label-info">(G) R$28,00</span>
+                            <span class="label label-info">(GG) R$32,00</span>
+                            <hr>
+                        </div>
+                        <!-- itens do cardápio !-->
+                        <table class="table table-striped">
+                            <thead class="titulo-cardapio">
+                                <tr class="titulo-principal">
+                                    <th class="col-md-2">Nome</th>
+                                    <th class="col-md-9">Ingredientes</th>
+                                </tr>
+                            </thead>
+                            <tbody class="">
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Mussarela</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Marguerita</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, manjericão, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Frango</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, frango, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Frango Catupiry</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, frango, catupiry, azeitona, tomate e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Presunto</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, presunto, azeitona, tomate e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Calabresa</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, calabresa, cebola, azeitona, tomate e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Portuguesa</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, presunto, ovo, tomate, cebola, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">À Moda da Casa</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, presunto, calabresa, bacon, ovo, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Sertaneja</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, carne de sol, queijo coalho, cebola, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Matuta</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, calabresa, ovo, bacon, cebola, tomate, azeitona, orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Mista</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, presunto, frango, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Bacon</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, bacon, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Suprema</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, cheddar, bacon, batata frita, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Chocolate</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, chocolate, (batom ou serenata)</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Banana</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, chocolate, banana e canela</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Churros</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, doce de leite, leite condensado e canela</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- titulo pizzas especiais !-->
+                        <hr>
+                        <h3><span class="label label-warning">Pizzas Especiais</span></h3>
+                        <hr>
+                        <table class="table table-striped">
+                            <thead class="titulo-cardapio">
+                                <tr class="titulo-principal">
+                                    <th class="col-md-2">Nome</th>
+                                    <th class="col-md-9">Ingredientes</th>
+                                </tr>
+                            </thead>
+                            <tbody class="">
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Quatro Queijos</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, catupiry, queijo coalho, cheddar, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Sobradinho</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, carne de sol, batata frita, cebola, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Formosa</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, carne, bacon, catupiry, milho, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Belezura</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, frango, cheddar, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Palharina</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, frango, batata palha, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Paulista</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, frango, catupiry, carne, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Rústica</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, carne, calabresa picada, tomate, azeitona e orégano</td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">Do chef</td>
+                                    <td class="col-md-9 detalhes-cardapio">Mussarela, frango, bacon, tomate, azeitona e orégano</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- cardapio carnes !-->
+                    <div id="carnes" class="tab-pane fade">
+                        <table class="table table-striped">
+                            <thead class="titulo-cardapio">
+                                <tr class="titulo-principal">
+                                    <th class="col-md-3">Nome</th>
+                                    <th class="col-md-7">Ingredientes</th>
+                                    <th class="col-md-2">Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody class="">
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Filé tipo à parmegiana (1p.)</td>
+                                    <td class="col-md-7 detalhes-cardapio">Carne, macarrão, molho e queijo</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$10,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Filé tipo à parmegiana (2p.)</td>
+                                    <td class="col-md-7 detalhes-cardapio">Carne, macarrão, molho e queijo</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$20,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Filé tipo à parmegiana (3p.)</td>
+                                    <td class="col-md-7 detalhes-cardapio">Carne, macarrão, molho e queijo</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$30,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">* Adicional de Batata Frita</td>
+                                    <td class="col-md-7 detalhes-cardapio">100g</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$3,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Carne Matuta</td>
+                                    <td class="col-md-7 detalhes-cardapio">Carne, queijo de coalho e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$15,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Carne c/ Frita (P)</td>
+                                    <td class="col-md-7 detalhes-cardapio">Carne, farofa, salada, batata ou macaxeira</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$17,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Carne c/ Frita</td>
+                                    <td class="col-md-7 detalhes-cardapio">Carne, farofa, salada, batata ou macaxeira</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$23,00</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- cardapio sanduiches !-->
+                    <div id="sanduiches" class="tab-pane fade">
+                        <table class="table table-striped">
+                            <thead class="titulo-cardapio">
+                                <tr class="titulo-principal">
+                                    <th class="col-md-2">Nome</th>
+                                    <th class="col-md-7">Ingredientes</th>
+                                    <th class="col-md-2">Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody class="">
+                                <tr>
+                                    <td class="col-md-2 titulo-cardapio">X-Salada</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, ovo, presunto, queijo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$6,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Eggs Bacon</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, bacon, ovo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$6,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Eggs Burguer</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, ovo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Eggs Dog</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, ovo, salsicha, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Hamburguer</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$4,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Misto Quente</td>
+                                    <td class="col-md-7 detalhes-cardapio">Presunto, queijo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$4,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Paulista</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, presunto, queijo, salsicha, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$6,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Torrada</td>
+                                    <td class="col-md-7 detalhes-cardapio">Queijo</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$4,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Lanche Bem</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, queijo, bacon, ovo, presunto, salsicha, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$8,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">X-Tudo</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, queijo, bacon, ovo, presunto, salsicha, frango, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$9,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Americano</td>
+                                    <td class="col-md-7 detalhes-cardapio">Ovo, presunto, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$4,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Baurú</td>
+                                    <td class="col-md-7 detalhes-cardapio">ovo, presunto, queijo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Burguer Bacon</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, bacon, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Burguer Dog</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, salsicha, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Big Frango</td>
+                                    <td class="col-md-7 detalhes-cardapio">Peito de frango, queijo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">X-Frango</td>
+                                    <td class="col-md-7 detalhes-cardapio">Peito de frango, queijo, presunto, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$6,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Frango Catupiry</td>
+                                    <td class="col-md-7 detalhes-cardapio">Peito de frango, queijo, catupiry, presunto, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$7,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Carioca</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, queijo, presunto, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">X-Bacon</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, bacon, queijo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$6,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">X-Dog Especial</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, queijo, salsicha, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">X-Burguer</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, queijo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">X-Eggs</td>
+                                    <td class="col-md-7 detalhes-cardapio">Hamburguer, queijo, ovo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$5,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">X-Filé</td>
+                                    <td class="col-md-7 detalhes-cardapio">Filé de carne, queijo, milho, batata palha e salada</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$6,00</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- cardapio petiscos !-->
+                    <div id="petiscos" class="tab-pane fade">
+                        <table class="table table-striped">
+                            <thead class="titulo-cardapio">
+                                <tr class="titulo-principal">
+                                    <th class="col-md-3">Nome</th>
+                                    <th class="col-md-7">Ingredientes</th>
+                                    <th class="col-md-2">Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody class="">
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Batata Frita</td>
+                                    <td class="col-md-7 detalhes-cardapio">Batata frita, molho</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$8,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Macaxeira Frita</td>
+                                    <td class="col-md-7 detalhes-cardapio">Macaxeira frita, molho</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$9,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Bolinho de Macaxeira (8 uni)</td>
+                                    <td class="col-md-7 detalhes-cardapio">Bolinho de macaxeira, molho</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$12,00</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- sucos !-->
+                    <div id="sucos" class="tab-pane fade">
+                        <table class="table table-striped">
+                            <thead class="titulo-cardapio">
+                                <tr class="titulo-principal">
+                                    <th class="col-md-3">Nome</th>
+                                    <th class="col-md-7">Ingredientes</th>
+                                    <th class="col-md-2">Preço</th>
+                                </tr>
+                            </thead>
+                            <tbody class="">
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Copo</td>
+                                    <td class="col-md-7 detalhes-cardapio">Laranja | Cajá | Graviola | Cajú | Uva</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$4,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Jarra P</td>
+                                    <td class="col-md-7 detalhes-cardapio">Laranja | Cajá | Graviola | Cajú | Uva</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$10,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Jarra M</td>
+                                    <td class="col-md-7 detalhes-cardapio">Laranja | Cajá | Graviola | Cajú | Uva</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$15,00</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="col-md-3 titulo-cardapio">Jarra G</td>
+                                    <td class="col-md-7 detalhes-cardapio">Laranja | Cajá | Graviola | Cajú | Uva</td>
+                                    <td class="col-md-2 preco-produtos"><span class="label label-danger">R$22,00</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- rodapé !-->
+        <footer>
+            <div class="rodape">
+                <p class="copyright">Copyright (c) 2017 Copyright Holder All Rights Reserved - <a href="https://www.instagram.com/pedro_lg/" target="_blank">AToca</a></p>
+            </div>
+        </footer>
+    </main>
+
+    <!-- jQuery -->
+    <script src="static/plugins/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap !-->
+    <script src="static/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- slick-carousel !-->
+    <script src="static/plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- index js !-->
+    <script src="static/js/index.js"></script>
+
+</body>
+
+</html>
