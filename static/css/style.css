@@ -1,1 +1,106 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500");body{font-family:'Quicksand', sans-serif}.center{text-align:center}.logo{font-size:23px}.menu-top{font-size:20px}.font-bolt{font-weight:500;color:#333}.font-regular{font-weight:400}.facebook{color:#3b5998}.facebook:hover{color:#4c68d7}.instagram{color:#8a3ab9}.instagram:hover{color:#fbad50}.slide{padding:20px;text-align:center;font-weight:500;color:grey}.slide p{font-size:17px;text-transform:uppercase}.detalhe-entrega{color:white;font-weight:500;text-align:center;margin-top:10px;margin-bottom:20px;padding:30px;background-image:url("../img/fundo-pizza.jpg");background-size:cover}.numero{text-decoration:none}.cardapio{margin-bottom:20px}.titulo-principal{color:#587068}.titulo-cardapio{font-weight:500;font-size:18px;color:black}.titulo-cardapio a{color:#5cb85c}.detalhes-cardapio{font-family:'Quicksand', sans-serif;font-weight:400;font-size:16px;color:black}.preco-pizzas{padding-top:10px;font-size:21px}.preco-produtos{font-size:18px}.rodape{padding:20px;background-color:#444240}.copyright{color:white;text-align:center}.texto-agenda{margin-bottom:20px}.detalhe-agenda{font-family:'Quicksand', sans-serif;font-weight:400;font-size:18px;text-align:justify;text-indent:2em}.img-local{margin-bottom:20px}.b-green{color: #5cb85c}
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+.center {
+  text-align: center;
+}
+.logo {
+  font-size: 23px;
+}
+.menu-top {
+  font-size: 20px;
+}
+.font-bolt {
+  font-weight: 500;
+  color: #333;
+}
+.font-regular {
+  font-weight: 400;
+}
+.facebook {
+  color: #3b5998;
+}
+.facebook:hover {
+  color: #4c68d7;
+}
+.instagram {
+  color: #8a3ab9;
+}
+.instagram:hover {
+  color: #fbad50;
+}
+.slide {
+  padding: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: grey;
+}
+.slide p {
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.detalhe-entrega {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 30px;
+  background-image: url('../img/fundo-pizza.jpg');
+  background-size: cover;
+}
+.numero {
+  text-decoration: none;
+}
+.cardapio {
+  margin-bottom: 20px;
+}
+.titulo-principal {
+  color: #587068;
+}
+.titulo-cardapio {
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+}
+.titulo-cardapio a {
+  color: #5cb85c;
+}
+.detalhes-cardapio {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+}
+.preco-pizzas {
+  padding-top: 10px;
+  font-size: 21px;
+}
+.preco-produtos {
+  font-size: 18px;
+}
+.rodape {
+  padding: 20px;
+  background-color: #444240;
+}
+.copyright {
+  color: white;
+  text-align: center;
+}
+.texto-agenda {
+  margin-bottom: 20px;
+}
+.detalhe-agenda {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 2em;
+}
+.img-local {
+  margin-bottom: 20px;
+}
+.b-green {
+  color: #5cb85c;
+}
